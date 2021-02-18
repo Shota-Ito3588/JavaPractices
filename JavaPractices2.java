@@ -24,12 +24,8 @@ public class JavaPractices2 {
     public static void main(String[] args) {
         System.out.println("列数と行数を入力してください。");
 
-        BufferedReader br =
-                new BufferedReader(new InputStreamReader(System.in));
-
-//        String str = br.readLine();
-        int res1 = Integer.parseInt(str);
-        int res2 = Integer.parseInt(str);
+        int res1 = Integer.parseInt(args[0]);
+        int res2 = Integer.parseInt(args[1]);
 
         for(int i=1; i<=res1; i++){
             for(int j=1; j<=res2; j++){
