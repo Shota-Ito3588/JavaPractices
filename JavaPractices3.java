@@ -34,12 +34,25 @@ public class JavaPractices3
     public static void main(String[] args)
     {
         String[] arr1 = {"red","blue","yellow","pink","green"};
-        int[] arr2 = {};
+        String[] arr2 = new String[arr1.length];
 
-        for(int i=0; i=arr1.length-1; i++) {
-            for(int j=0; j=arr1.length-1; j++){
-                int arr2[j] = int arr1[i];
-            }
+//        for(int i=0; i<10; i++){
+//
+//        }
+
+        for(int i=0; i< arr1.length; i++) {
+            int index= arr1.length-i-1;
+            System.out.println(index);
+            System.out.println(arr1[index]);
+//            for(int j=0; j=; j++){
+//                String arr2[j] = String arr1[i];
+//            }
+            arr2[i] = arr1[index];
+
+        }
+        System.out.println("______");
+        for(int i=0; i< arr2.length; i++){
+            System.out.println(arr2[i]);
         }
         System.out.print(arr2);
     }
