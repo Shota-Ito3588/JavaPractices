@@ -21,19 +21,36 @@ public class Calucurator {
         int plus = a+b;
         return  plus;
     }
+    System.out.println(int plus);
 
     public static int minus(int a, int b) {
         int minus = a-b;
         return  minus;
     }
+    System.out.println(int minus);
 
     public static int mul(int a, int b) {
         int mul = a*b;
         return  mul;
     }
+    System.out.println(int mul);
 
     public static int divi(int a, int b) {
         int divi = a/b;
         return divi;
     }
+    System.out.println(int divi);
+
+//    void show(){
+//        System.out.println(int minus);
+    }
 }
+//
+//class JavaSample
+//{
+//    public static void main(String[] args)
+//    {
+//
+//    }
+//}
+
