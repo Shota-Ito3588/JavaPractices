@@ -22,11 +22,16 @@ public class Calucurator {
         int a = 1;
         int b = 2;
     }
-    public static int plus () {
+
+    public static int plus (int a,int b) {
 
         int ans = a + b;
 
         return ans;
+    }
+
+    public static void show(){
+
     }
 }
 //    public static int minus(int a, int b) {
