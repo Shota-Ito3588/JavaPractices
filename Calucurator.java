@@ -17,18 +17,18 @@
 
 public class Calucurator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         int a = 1;
         int b = 2;
-
-    public static int plus(){
-
-        int ans = a+b;
-
-        return ans;
     }
-//
+        public static int plus () {
+
+            int ans = a + b;
+
+            return ans;
+        }
+    }
 //    public static int minus(int a, int b) {
 //        int minus = a-b;
 //        return  minus;
@@ -54,6 +54,6 @@ public class Calucurator {
 //    public static void main(String[] args)
 //    {
 //
-   }
-}
+//   }
+//}
 
