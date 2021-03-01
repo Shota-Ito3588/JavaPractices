@@ -26,8 +26,10 @@ public class MethodSample {
         }
 
         int ans = MethodSample.plus(2, 2);
+        int ans1 = MethodSample.plus(3, 3);
 
         System.out.println(ans);
+        System.out.println(ans1);
 
         MethodSample.show();
 
