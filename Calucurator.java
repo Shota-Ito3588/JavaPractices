@@ -19,8 +19,11 @@ public class Calucurator {
 
     public static void main(String[] args) {
 
-        int a = 1;
-        int b = 2;
+//        int a = 1;
+//        int b = 2;
+
+        int ans = Calucurator.plus(2,2);
+        System.out.println(ans);
     }
 
     public static int plus (int a,int b) {
@@ -34,10 +37,7 @@ public class Calucurator {
 
     }
 }
-//    public static int minus(int a, int b) {
-//        int minus = a-b;
-//        return  minus;
-//    }
+
 //
 //    public static int mul(int a, int b) {
 //        int mul = a*b;
