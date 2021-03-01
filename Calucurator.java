@@ -15,6 +15,24 @@
 //        引数: a, b
 //        戻り値: int
 
+
+
+//        メソッド: 足し算して引き算
+//        引数: target1, target2, target3
+//        戻り値: int
+//
+//        メソッド: 足し算して掛け算
+//        引数: target1, target2, target3
+//        戻り値: int
+//
+//        メソッド: 引き算して掛け算
+//        引数: target1, target2, target3
+//        戻り値: int
+//
+//        メソッド: 足し算して引き算して掛け算
+//        引数: target1, target2, target3, target4
+//        戻り値: int
+
 public class Calucurator {
 
     public static void main(String[] args) {
