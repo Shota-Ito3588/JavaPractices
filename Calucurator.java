@@ -17,35 +17,43 @@
 
 public class Calucurator {
 
-    public static int plus(int a, int b) {
-        int plus = a+b;
-        return  plus;
-    }
-    System.out.println(int plus);
+    public static int main(String[] args){
 
-    public static int minus(int a, int b) {
-        int minus = a-b;
-        return  minus;
-    }
-    System.out.println(int minus);
+        int a = 1;
+        int b = 2;
 
-    public static int mul(int a, int b) {
-        int mul = a*b;
-        return  mul;
-    }
-    System.out.println(int mul);
+    public static int plus() {
 
-    public static int divi(int a, int b) {
-        int divi = a/b;
-        return divi;
+        int ans = a+b;
+
+        return ans;
     }
-    System.out.println(int divi);
+//    System.out.println(int plus);
+
+//    public static int minus(int a, int b) {
+//        int minus = a-b;
+//        return  minus;
+//    }
+////    System.out.println(int minus);
+//
+//    public static int mul(int a, int b) {
+//        int mul = a*b;
+//        return  mul;
+//    }
+////    System.out.println(int mul);
+//
+//    public static int divi(int a, int b) {
+//        int divi = a/b;
+//        return divi;
+    }
+
+//    System.out.println(int divi);
 
 //    void show(){
 //        System.out.println(int minus);
     }
-}
-//
+//}
+
 //class JavaSample
 //{
 //    public static void main(String[] args)
