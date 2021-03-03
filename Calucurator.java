@@ -48,6 +48,9 @@ public class Calucurator {
         int ans8 = Calucurator.minusMul(3, 2, 5);
         int ans9 = Calucurator.plusMinusMul(2, 5, 3, 2);
 
+        Calucurator.plus(2, 3);
+
+
         System.out.println(ans);
         System.out.println(ans1);
         System.out.println(ans2);
@@ -82,7 +85,9 @@ public class Calucurator {
     }
 
     public static int plusMinus(int target1, int target2, int target3) {
-        int plusMinus = target1 + target2 - target3;
+        int plusAns = Calucurator.plus(target1,target2);
+//        int plusMinus = Calucurator.plus(target1,target2) - target3;
+        int plusMinus = plusAns - target3;
         return plusMinus;
     }
 
