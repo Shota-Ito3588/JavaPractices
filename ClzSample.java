@@ -22,8 +22,6 @@
 
 public class ClzSample {
 
-
-
     // メソッド 四角形の面積
     public int getArea(int height, int width) {
         int area = height * width;
