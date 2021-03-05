@@ -40,6 +40,11 @@ public class CarMain {
         engine.engineSize = "1800cc";
         System.out.println(engine.ansEngine());
 
+        Human ito = new Human();
+        ito.name = "伊藤";
+        System.out.println(ito.greet());
+
+
         Car priusWhite = new Car();
         priusWhite.name = "プリウス";
         priusWhite.color = "ホワイト";
