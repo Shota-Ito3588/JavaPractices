@@ -20,7 +20,7 @@ public class StringOperation {
 
         String front = postalCode.substring(0, 2);
 //        postalCode.indexOf();
-        return null;
+        return front;
 
 //        System.out.println(postalCode.substring(0, 2));
     }
