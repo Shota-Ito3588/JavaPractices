@@ -28,8 +28,9 @@ public class StringOperation {
     // 郵便番号の後ろ部分(例 0109)を抽出するメソッドをリファレンスにあるメソッドを用いて作る
 
     public String getPostalCodeBack(String postalCode) {
+        String back = postalCode.substring(4, 7);
 //        postalCode.lastIndexOf();
-        return null;
+        return back;
 
 //        int size = postalCode.length();
 //        int cutLength = 4;
